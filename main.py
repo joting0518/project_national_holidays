@@ -13,8 +13,8 @@ from sqlalchemy import create_engine
 from datetime import datetime
 
 # 創建引擎和會話 ",encoding=utf-8
-# engine = create_engine("mysql+pymysql://amy:test@file.fans98.com:3306/cex",encoding=utf8)
-engine = create_engine("mysql+pymysql://amy:test@file.fans98.com:3306/cex?charset=utf-8")
+# engine = create_engine("mysql+pymysql://",encoding=utf8)
+engine = create_engine("mysql+pymysql://?charset=utf8")
 Session = sessionmaker(bind=engine)
 session = Session()
 
@@ -106,5 +106,5 @@ if __name__ == '__main__':
 
 
 
-
 #source myenv/bin/activate
+#deactivate
