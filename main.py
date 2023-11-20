@@ -106,5 +106,5 @@ if __name__ == '__main__':
 
 
 
-#source myenv/bin/activate
+#source venv/bin/activate
 #deactivate
